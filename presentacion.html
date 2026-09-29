@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Presentación - Jhon Jairo Correa Jaimes</title> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"> <!-- Importa la librería de iconos de Bootstrap -->
+</head>
+<body> <!-- Abre el cuerpo con todo el contenido visible de la web --
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"> <!-- Barra de navegación oscura y fija en la parte superior -->
+    <div class="container"> <!-- Contenedor para alinear los elementos de la barra -->
+      <a class="navbar-brand" href="index.html">Jhon Correa</a> <!-- Logo o nombre que redirige a la página principal -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"> <!-- Botón hamburguesa para desplegar el menú en móviles -->
+        <span class="navbar-toggler-icon"></span> <!-- Icono de las líneas del menú móvil -->
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu"> <!-- Contenedor que agrupa los enlaces colapsables del menú -->
+        <ul class="navbar-nav ms-auto"> <!-- Lista de opciones de navegación alineadas a la derecha -->
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li> <!-- Enlace a la página de inicio -->
+          <li class="nav-item"><a class="nav-link active" href="presentacion.html">Presentación</a></li> <!-- Enlace activo de la página de presentación -->
+          <li class="nav-item"><a class="nav-link" href="datos-personales.html">Mis datos</a></li> <!-- Enlace a datos personales -->
+          <li class="nav-item"><a class="nav-link" href="estudios.html">Estudios</a></li> <!-- Enlace al historial de estudios -->
+          <li class="nav-item"><a class="nav-link" href="habilidades.html">Habilidades</a></li> <!-- Enlace a la sección de habilidades -->
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li> <!-- Enlace a proyectos -->
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li> <!-- Enlace a la página de contacto -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main> <!-- Contenedor principal de la vista de presentación -->
+    <section class="container py-5"> <!-- Sección con espaciado vertical superior e inferior -->
+      <p class="text-uppercase text-muted small mb-1">Quién soy</p> <!-- Subtítulo pequeño en mayúsculas -->
+      <h2 class="mb-0">Presentación</h2> <!-- Título principal de la sección -->
+      <hr class="w-25 my-3"> <!-- Línea decorativa divisoria -->
+
+      <div class="row g-4 align-items-start"> <!-- Fila de Bootstrap con separación y alineación vertical -->
+        <div class="col-md-4"> <!-- Columna izquierda para la fotografía (ocupa 4 de 12 espacios en pantallas medianas) -->
+          <img src="img/WhatsApp Image 2026-09-11 at 9.50.58 AM (5).jpeg" class="img-fluid rounded" alt="Foto de perfil"> <!-- Imagen de perfil responsiva y con bordes redondeados -->
+        </div>
+        <div class="col-md-8"> <!-- Columna derecha para los párrafos descriptivos (ocupa 8 de 12 espacios) -->
+          <p class="fst-italic text-secondary">
+            Soy estudiante de Análisis y Desarrollo de Software, apasionado por el mundo de la
+            tecnología y la programación. Me caracterizo por ser una persona curiosa, responsable
+            y comprometida con cada proyecto que emprendo. Disfruto aprender cosas nuevas,
+            enfrentar retos y encontrar soluciones creativas a los problemas.
+          </p> <!-- Primer párrafo de presentación personal -->
+          <p class="fst-italic text-secondary">
+            Me interesa especialmente el desarrollo web, la creación de interfaces intuitivas y la
+            programación de aplicaciones que faciliten la vida de las personas. En mi tiempo libre
+            me gusta explorar nuevas herramientas, practicar código y mantenerme actualizado sobre
+            las últimas tendencias tecnológicas.
+          </p> <!-- Segundo párrafo detallando intereses -->
+          <p class="fst-italic text-secondary mb-0">
+            Mi objetivo es seguir formándome como profesional, adquirir experiencia en el sector y
+            contribuir con mi conocimiento al desarrollo de proyectos innovadores.
+          </p> <!-- Tercer párrafo enfocado en metas y objetivos profesionales -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-white text-center py-4"> <!-- Pie de página oscuro, centrado y con espaciado -->
+    <div class="container"> <!-- Contenedor interno del footer -->
+      <p class="mb-2">&copy; Jhon Correa — Todos los derechos reservados</p> <!-- Texto de derechos de autor -->
+      <!-- Enlaces de contacto y acciones -->
+      <div class="d-flex justify-content-center align-items-center gap-3"> <!-- Contenedor flexible para alinear los iconos de contacto -->
+        <a href="mailto:jhonjairocorreajaimes70@gmail.com" class="text-white fs-5" title="Enviar correo"> <!-- Enlace rápido para abrir el correo -->
+          <i class="bi bi-envelope-fill"></i> <!-- Icono de sobre -->
+        </a>
+        <!-- Botón de WhatsApp -->
+        <a href="https://wa.me/573208677429?text=Hola%20Jhon,%20estoy%20interesado%20en%20tu%20perfil" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="text-white fs-5" 
+           title="Escribir por WhatsApp"> <!-- Enlace directo a WhatsApp con tu número real y mensaje preconfigurado -->
+          <i class="bi bi-whatsapp"></i> <!-- Icono de WhatsApp -->
+        </a>
+        <a href="#" class="text-white fs-5" title="Volver arriba"> <!-- Enlace para regresar al inicio de la página -->
+          <i class="bi bi-arrow-up-circle"></i> <!-- Icono de flecha hacia arriba -->
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- Script de Bootstrap para componentes interactivos -->
+</body> <!-- Cierre del cuerpo de la página -->
+</html> <!-- Cierre del documento HTML -->
